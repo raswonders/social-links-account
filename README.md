@@ -1,6 +1,6 @@
 # Frontend Mentor - Blog preview card
 
-This is a solution to the [Social links profile](https://www.frontendmentor.io/solutions/social-links-profile-with-react-and-tailwind-48Cn2ec-Oo).
+This is a solution to the [Social links profile challenge](https://www.frontendmentor.io/solutions/social-links-profile-with-react-and-tailwind-48Cn2ec-Oo).
 
 ## Table of contents
 
