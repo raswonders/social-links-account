@@ -7,11 +7,12 @@ export function Card() {
       <img
         className="w-[88px] self-center relative rounded-full"
         src={avatarImage}
+        alt="Rastislav's Avatar"
       />
       <div className="flex-col justify-start items-center gap-1 flex">
-        <div className="text-white text-2xl font-semibold font-custom leading-9">
+        <h1 className="text-white text-2xl font-semibold font-custom leading-9">
           Rastislav Hepner
-        </div>
+        </h1>
         <div className="text-neonGreen text-sm font-bold font-custom leading-normal">
           Brno, Czech Republic
         </div>
