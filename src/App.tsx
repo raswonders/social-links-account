@@ -1,8 +1,10 @@
+import { Card } from "./Card";
+
 function App() {
   return (
-    <>
-      <h1>rtt-vite-template</h1>
-    </>
+    <main className="flex justify-center items-center">
+      <Card />
+    </main>
   );
 }
 
