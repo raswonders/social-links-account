@@ -29,7 +29,7 @@ See hover and focus states for all interactive elements on the page
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://sensational-kitten-6434f4.netlify.app/)
+- Live Site URL: [on netlify](https://sensational-kitten-6434f4.netlify.app/)
 
 ## My process
 
