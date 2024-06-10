@@ -39,7 +39,7 @@ export function Card() {
             Twitter
           </div>
         </div>
-        <div className="self-stretch p-3 bg-zinc-800 rounded-lg justify-center items-center gap-2 inline-flex">
+        <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
           <div className="text-white text-sm font-bold font-['Inter'] leading-[21px]">
             Instagram
           </div>
