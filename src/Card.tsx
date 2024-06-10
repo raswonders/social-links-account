@@ -1,3 +1,4 @@
+import { SocialLink } from "./SocialLink";
 import avatarImage from "/public/assets/images/avatar-jessica.jpeg";
 
 export function Card() {
@@ -18,32 +19,16 @@ export function Card() {
       <div className="self-stretch text-center text-white text-sm font-normal font-custom leading-[21px]">
         "Front-end developer and avid reader."
       </div>
-      <div className="self-stretch h-[289px] flex-col justify-start items-center gap-4 flex">
-        <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
-          <div className="text-white text-sm font-bold font-custom leading-[21px]">
-            GitHub
-          </div>
-        </div>
-        <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
-          <div className="text-white text-sm font-bold font-custom leading-[21px]">
-            Frontend Mentor
-          </div>
-        </div>
-        <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
-          <div className="text-white text-sm font-bold font-custom leading-[21px]">
-            LinkedIn
-          </div>
-        </div>
-        <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
-          <div className="text-white text-sm font-bold font-custom leading-[21px]">
-            Twitter
-          </div>
-        </div>
-        <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
-          <div className="text-white text-sm font-bold font-custom leading-[21px]">
-            Instagram
-          </div>
-        </div>
+      <div className="self-stretch h-[289px] flex-col justify-start items-stretch gap-4 flex">
+        <SocialLink href="https://github.com/raswonders">GitHub</SocialLink>
+        <SocialLink href="https://www.frontendmentor.io/profile/raswonders">
+          Frontend Mentor
+        </SocialLink>
+        <SocialLink href="https://www.linkedin.com/in/rastislavhepner/">
+          LinkedIn
+        </SocialLink>
+        <SocialLink href="https://twitter.com/raswonders">Twitter</SocialLink>
+        <SocialLink href="">Instagram</SocialLink>
       </div>
     </div>
   );
