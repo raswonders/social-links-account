@@ -1,9 +1,11 @@
+import avatarImage from "/public/assets/images/avatar-jessica.jpeg";
+
 export function Card() {
   return (
     <div className="w-80 p-6 bg-darkGrey rounded-xl flex-col justify-start items-center gap-6 inline-flex">
       <img
         className="w-[88px] h-[88px] relative rounded-[999px]"
-        src="https://via.placeholder.com/88x88"
+        src={avatarImage}
       />
       <div className="self-stretch h-[61px] flex-col justify-start items-center gap-1 flex">
         <div className="self-stretch text-center text-white text-2xl font-semibold font-['Inter'] leading-9">
@@ -37,7 +39,7 @@ export function Card() {
             Twitter
           </div>
         </div>
-        <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
+        <div className="self-stretch p-3 bg-zinc-800 rounded-lg justify-center items-center gap-2 inline-flex">
           <div className="text-white text-sm font-bold font-['Inter'] leading-[21px]">
             Instagram
           </div>
