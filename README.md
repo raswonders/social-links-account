@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Blog preview card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Social links profile](https://www.frontendmentor.io/solutions/social-links-profile-with-react-and-tailwind-48Cn2ec-Oo).
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### The challenge
 
-- Configure the top-level `parserOptions` property like this:
+Build out this social links profile and get it looking as close to the design as possible.
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Your users should be able to:
+See hover and focus states for all interactive elements on the page
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
+### Screenshot
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![](./screenshot.png)
+
+### Links
+
+- Live Site URL: [Add live site URL here](https://sensational-kitten-6434f4.netlify.app/)
+
+## My process
+
+### Built with
+
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Tailwindcss](https://tailwindcss.com/) - For styles
+
+### What I learned
+
+- Specifying explicit height harms responsiveness really bad and we better avoid it.
+- Keep forgeting type for children in React
+
+### Continued development
+
+Getting hang of tailwindcss definitelly want to get better at it.
+
+## Author
+
+- Frontend Mentor - [@raswonders](https://www.frontendmentor.io/profile/raswonders)
+- Twitter - [@raswonders](https://www.twitter.com/raswonders)
+- LinkedIn - [Rastislav Hepner](https://www.linkedin.com/in/rastislavhepner/)
