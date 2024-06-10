@@ -10,6 +10,9 @@ export default {
         grey: "hsla(0, 0%, 20%, 1)",
         white: "hsla(0, 0%, 100%, 1)",
       },
+      fontFamily: {
+        custom: ["Inter", "Helvetica", "sans-serif"],
+      },
     },
   },
   plugins: [],

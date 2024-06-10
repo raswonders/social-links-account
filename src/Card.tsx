@@ -8,39 +8,39 @@ export function Card() {
         src={avatarImage}
       />
       <div className="self-stretch h-[61px] flex-col justify-start items-center gap-1 flex">
-        <div className="self-stretch text-center text-white text-2xl font-semibold font-['Inter'] leading-9">
+        <div className="self-stretch text-center text-white text-2xl font-semibold font-custom leading-9">
           Jessica Randall
         </div>
-        <div className="self-stretch text-center text-neonGreen text-sm font-bold font-['Inter'] leading-[21px]">
+        <div className="self-stretch text-center text-neonGreen text-sm font-bold font-custom leading-[21px]">
           London, United Kingdom
         </div>
       </div>
-      <div className="self-stretch text-center text-white text-sm font-normal font-['Inter'] leading-[21px]">
+      <div className="self-stretch text-center text-white text-sm font-normal font-custom leading-[21px]">
         "Front-end developer and avid reader."
       </div>
       <div className="self-stretch h-[289px] flex-col justify-start items-center gap-4 flex">
         <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
-          <div className="text-white text-sm font-bold font-['Inter'] leading-[21px]">
+          <div className="text-white text-sm font-bold font-custom leading-[21px]">
             GitHub
           </div>
         </div>
         <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
-          <div className="text-white text-sm font-bold font-['Inter'] leading-[21px]">
+          <div className="text-white text-sm font-bold font-custom leading-[21px]">
             Frontend Mentor
           </div>
         </div>
         <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
-          <div className="text-white text-sm font-bold font-['Inter'] leading-[21px]">
+          <div className="text-white text-sm font-bold font-custom leading-[21px]">
             LinkedIn
           </div>
         </div>
         <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
-          <div className="text-white text-sm font-bold font-['Inter'] leading-[21px]">
+          <div className="text-white text-sm font-bold font-custom leading-[21px]">
             Twitter
           </div>
         </div>
         <div className="self-stretch p-3 bg-grey rounded-lg justify-center items-center gap-2 inline-flex">
-          <div className="text-white text-sm font-bold font-['Inter'] leading-[21px]">
+          <div className="text-white text-sm font-bold font-custom leading-[21px]">
             Instagram
           </div>
         </div>
