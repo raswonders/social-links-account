@@ -1,5 +1,5 @@
 import { SocialLink } from "./SocialLink";
-import avatarImage from "/public/assets/images/avatar-jessica.jpeg";
+import avatarImage from "/public/assets/images/avatar.jfif";
 
 export function Card() {
   return (
@@ -10,17 +10,17 @@ export function Card() {
       />
       <div className="flex-col justify-start items-center gap-1 flex">
         <div className="text-white text-2xl font-semibold font-custom leading-9">
-          Jessica Randall
+          Rastislav Hepner
         </div>
         <div className="text-neonGreen text-sm font-bold font-custom leading-normal">
-          London, United Kingdom
+          Brno, Czech Republic
         </div>
       </div>
       <div className="text-white text-sm font-normal font-custom leading-normal">
         "Front-end developer and avid reader."
       </div>
       <div className="flex-col justify-start items-stretch gap-4 flex">
-        <SocialLink href="https://github.com/raswonders">GitHub</SocialLink>
+        <SocialLink href="https://github.c`om/raswonders">GitHub</SocialLink>
         <SocialLink href="https://www.frontendmentor.io/profile/raswonders">
           Frontend Mentor
         </SocialLink>
