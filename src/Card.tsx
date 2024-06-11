@@ -20,17 +20,28 @@ export function Card() {
       <div className="text-white text-sm font-normal font-custom leading-normal">
         "Front-end developer and avid reader."
       </div>
-      <div className="flex-col justify-start items-stretch gap-4 flex">
-        <SocialLink href="https://github.c`om/raswonders">GitHub</SocialLink>
-        <SocialLink href="https://www.frontendmentor.io/profile/raswonders">
-          Frontend Mentor
-        </SocialLink>
-        <SocialLink href="https://www.linkedin.com/in/rastislavhepner/">
-          LinkedIn
-        </SocialLink>
-        <SocialLink href="https://twitter.com/raswonders">Twitter</SocialLink>
-        <SocialLink href="">Instagram</SocialLink>
-      </div>
+
+      <ul className="flex-col justify-start items-stretch gap-4 flex">
+        <li>
+          <SocialLink href="https://github.c`om/raswonders">GitHub</SocialLink>
+        </li>
+        <li>
+          <SocialLink href="https://www.frontendmentor.io/profile/raswonders">
+            Frontend Mentor
+          </SocialLink>
+        </li>
+        <li>
+          <SocialLink href="https://www.linkedin.com/in/rastislavhepner/">
+            LinkedIn
+          </SocialLink>
+        </li>
+        <li>
+          <SocialLink href="https://twitter.com/raswonders">Twitter</SocialLink>
+        </li>
+        <li>
+          <SocialLink href="">Instagram</SocialLink>
+        </li>
+      </ul>
     </div>
   );
 }
